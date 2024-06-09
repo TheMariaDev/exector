@@ -620,6 +620,23 @@ do
 		end
 	end
 end
+Baiunc = {} --make a table for bai functions
+--I don't wanna do this.But i'll get much money if i so
+Baiunc.name = [[
+    function identifyexecutor()
+        return "BaiExecutor"
+    end
+]]
+
+Baiunc.execript = function(code)
+    executescript(Baiunc.name..code)
+end
+
+Baiunc.execlip = function()
+    executeclipboard()
+end
+
+genv.Baiunc = Baiunc
 
 --[[ UI Communication ]]--
 
